@@ -1,0 +1,77 @@
+@media screen and (max-width:980px){
+    /* START HEADER SECTIOIN */
+
+
+    .logo-part{
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    .login-part{
+        width: 391px;
+        margin:20px auto;
+        float: none;
+    }
+    .login-part form{
+        float: none;
+    }
+
+    /* END HEADER SECTION */
+
+    /* START LOGIN SECTION */
+
+     .left-part{
+         width: 95%;
+         float: none;
+     }
+     .left-part p{
+         width: 100%;
+         font-size: 18px;
+     }
+     .right-part{
+         width: 100%;
+         float: none;
+     }
+     .right-part h2{
+         margin-top: 15px;;
+     }
+
+    /* END LOGIN SECTION */
+}
+@media screen and (max-width:768px)
+{
+    .login-part{
+        width: 100%;
+    }
+    .login-part .emaill,
+    .login-part .password,
+    .login-part .submit{
+        float: none;
+        margin: 0;
+    }
+    .login-part input[type="text"],
+    .login-part input[type="password"]{
+        width: 100%;
+        box-sizing: border-box;
+        margin-bottom: 10px;
+    }
+    .login-part input[type="password"]{
+        margin-bottom: 0;
+    }
+}
+@media(max-width:480px){
+    .container{
+        width: 80%;
+    }
+
+
+
+    .left-part{
+        display: none;
+    }
+    .btn{
+        width: 200px;
+        margin: auto;
+        margin-bottom: 25px;
+    }
+}
